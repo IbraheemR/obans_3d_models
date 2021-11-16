@@ -34,6 +34,7 @@
 - [ ] mushrooms
 - [ ] azelea bush?
 - [ ] spore blossom?
+      a
 
   - i dont think i have anything to add here, nor to plants in general. I cant think of a way to make the complex foliage 3d in a tasteful way.
 
@@ -43,8 +44,8 @@
 - [ ] crystals
 - [ ] stalagtites
 
-- [ ] furnace
-- [ ] blast furnace
+- [x] furnace
+- [x] blast furnace
 - [ ] enchant table?
 - [ ] stone cutter
 - [ ] lodestone
@@ -58,3 +59,6 @@
 - [x] end frame
 
 - [x] juke box
+
+- [ ] bookshelf
+- [ ] kelp
