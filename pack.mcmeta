@@ -1,6 +1,6 @@
 {
-   "pack": {
-      "pack_format": 5,
-      "description": "OBAN 3D Models"
-   }
+  "pack": {
+    "pack_format": 7,
+    "description": "OBAN 3D Models"
+  }
 }
