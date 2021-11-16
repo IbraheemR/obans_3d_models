@@ -1,9 +1,60 @@
-# Problems:
+# New models:
 
-- [WONTFIX] diagonal rail ga on connect to straight
-- [x] Top spike on cactus clips when two cactuses stacked
-- [WONTFIX] detector (and other?) rails flicker when diagonals put together
-- [WONTFIX] tiny sliver of metal on rail ties on all rails - they have a slight offset??
-- [x] detector raised wrong model when activated (diagonal)
-- [x] shutter on smoker??
-- [x] jungle trapdoor item
+- [x] Trapdoors:
+
+  - [x] iron
+  - [x] birch
+  - [NO] spruce?
+  - [x] acacia
+  - [NO] dark oak?
+  - [x] crimson
+  - [x] warped
+
+- [ ] doors
+
+  - [ ] iron
+  - [ ] oak
+  - [ ] birch
+  - [NO] spruce?
+  - [ ] acacia
+  - [No] dark oak?
+  - [ ] crimson
+  - [ ] warped
+
+- [x] daylight sensor
+- [x] observer??
+
+- [ ] sugar cane
+
+- [ ] dripleaf
+- [ ] cobweb
+- [ ] saplings
+- [ ] crops
+- [ ] other plants, flowers, coral
+- [ ] mushrooms
+- [ ] azelea bush?
+- [ ] spore blossom?
+
+  - i dont think i have anything to add here, nor to plants in general. I cant think of a way to make the complex foliage 3d in a tasteful way.
+
+- [x] lantern w/ new chain
+- [x] chain
+
+- [ ] crystals
+- [ ] stalagtites
+
+- [ ] furnace
+- [ ] blast furnace
+- [ ] enchant table?
+- [ ] stone cutter
+- [ ] lodestone
+- [ ] beehvive/nest
+- [ ] smith table
+- [ ] fletchers table
+- [ ] cart. table
+- [ ] loom
+- [ ] craft table
+
+- [x] end frame
+
+- [x] juke box
