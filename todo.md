@@ -41,7 +41,7 @@
 - [x] lantern w/ new chain
 - [x] chain
 
-- [ ] crystals
+- [x] amethyst crystals
 - [ ] stalagtites
 
 - [x] furnace
@@ -49,6 +49,7 @@
 - [ ] enchant table?
 - [ ] stone cutter
 - [ ] lodestone
+- [ ] respawn anchor <== Having issues!!!
 - [ ] beehvive/nest
 - [ ] smith table
 - [ ] fletchers table
