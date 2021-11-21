@@ -1,15 +1,30 @@
 name: Zip Releases
 
-on: [release, workflow_dispatch]
+on:
+  release:
+    types: [created]
 
 jobs:
   zip:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
       - name: Zip files
         run: zip -r O3M.zip . -x ".git/*" ".github/*" "todo.md" ".gitignore"
-      - uses: actions/upload-artifact@v1
+
+      - name: Get release
+        id: get_release
+        uses: bruceadams/get-release@v1.2.3
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+      - name: Upload Artifact
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         with:
-          name: zip-release
-          path: ${{ github.workspace }}/O3M.zip
+          upload_url: ${{ steps.get_release.outputs.upload_url }}
+          asset_path: ${{ github.workspace }}/O3M.zip
+          asset_name: O3M.zip
+          asset_content_type: application/zip
