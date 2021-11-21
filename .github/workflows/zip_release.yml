@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Zip files
-        run: zip -r o3m.zip . -x ".git/*" ".github/*" "todo.md" ".gitignore"
+        run: zip -r O3M.zip . -x ".git/*" ".github/*" "todo.md" ".gitignore"
       - uses: actions/upload-artifact@v1
         with:
           name: zip-release
