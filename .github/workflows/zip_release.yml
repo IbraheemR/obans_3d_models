@@ -1,6 +1,6 @@
 name: Zip Releases
 
-on: release
+on: [release, workflow_dispatch]
 
 jobs:
   zip:
