@@ -48,8 +48,8 @@
 - [x] blast furnace
 - [ ] enchant table?
 - [ ] stone cutter
-- [ ] lodestone
-- [ ] respawn anchor <== Having issues!!!
+- [x] lodestone
+- [NOT POSSIBLE?] respawn anchor
 - [ ] beehvive/nest
 - [ ] smith table
 - [ ] fletchers table
