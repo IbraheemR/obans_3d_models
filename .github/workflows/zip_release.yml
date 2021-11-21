@@ -26,5 +26,5 @@ jobs:
         with:
           upload_url: ${{ steps.get_release.outputs.upload_url }}
           asset_path: ${{ github.workspace }}/O3M.zip
-          asset_name: O3M.zip
+          asset_name: O3M-${{ steps.get_release.outputs.tag_name }}.zip
           asset_content_type: application/zip
