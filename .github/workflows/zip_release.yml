@@ -7,10 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: papeloto/action-zip@v1
-        with:
-          files: assets/ pack.mcmeta README.md LICENSE
-          dest: O3M.zip
+      - name: Zip files
+        run: zip -r o3m.zip . -x ".git/*" ".github/*" "todo.md" ".gitignore"
       - uses: actions/upload-artifact@v1
         with:
           name: zip-release
