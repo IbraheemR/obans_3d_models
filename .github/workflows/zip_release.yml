@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Zip files
-        run: zip -r O3M.zip . -x ".git/*" ".github/*" "todo.md" ".gitignore"
+        run: zip -r O3M.zip . -x ".git/*" ".github/*" "todo.md" ".gitignore" "docs/*"
 
       - name: Get release
         id: get_release

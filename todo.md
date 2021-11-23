@@ -1,3 +1,6 @@
+- [ ] Review and fix shading issues - light emitting blocks (jack o lantern, respawn anchor etc)
+- [ ] Make a better build script
+
 # New models:
 
 - [x] Trapdoors:
@@ -25,6 +28,7 @@
 - [x] observer??
 
 - [ ] sugar cane
+- [ ] Potted cactus/sugarcane
 
 - [ ] dripleaf
 - [ ] cobweb
